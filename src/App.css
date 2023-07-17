@@ -1,37 +1,67 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cinzel:wght@500&family=Pathway+Gothic+One&display=swap");
 
-body{
-  background-image: linear-gradient(
-    to right bottom,
-    #457b9d,
-    #538da9,
-    #649eb5,
-    #77b0c0,
-    #8bc2cc,
-    #9acdd1,
-    #a9d8d7,
-    #bae3dd,
-    #c8e9df,
-    #d7efe2,
-    #e4f4e7,
-    #f1faee
+body,
+.card {
+  background: rgb(125, 195, 206);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(125, 195, 206, 1) 0%,
+    rgba(197, 235, 226, 1) 40%,
+    rgba(248, 252, 242, 1) 100%
   );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(125, 195, 206, 1) 0%,
+    rgba(197, 235, 226, 1) 40%,
+    rgba(248, 252, 242, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(125, 195, 206, 1) 0%,
+    rgba(197, 235, 226, 1) 40%,
+    rgba(248, 252, 242, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7dc3ce",endColorstr="#f8fcf2",GradientType=1);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 .header {
   font-family: "Amatic SC", cursive;
   font-size: 4.5rem;
+  color: #e63946 !important;
+  background: rgb(125, 195, 206);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(125, 195, 206, 1) 0%,
+    rgba(197, 235, 226, 1) 40%,
+    rgba(248, 252, 242, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(125, 195, 206, 1) 0%,
+    rgba(197, 235, 226, 1) 40%,
+    rgba(248, 252, 242, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(125, 195, 206, 1) 0%,
+    rgba(197, 235, 226, 1) 40%,
+    rgba(248, 252, 242, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7dc3ce",endColorstr="#f8fcf2",GradientType=1);
 }
 .card {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .card-title {
-  color: e63946 !important;
+  color: #e63946 !important;
   font-family: "Cinzel", serif;
+  font-size: 1.6rem;
 }
 .card-text {
   font-family: "Pathway Gothic One", sans-serif;
-  font-size: 1.5rem !important;
+  color: #1d3557;
+  font-weight: 600;
 }

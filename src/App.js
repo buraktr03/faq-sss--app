@@ -1,6 +1,7 @@
-import Header from "./components/Header"
-import InterviewAccord from "./components/InterviewAccord"
-import 'bootstrap/dist/css/bootstrap.css'
+import Header from "./components/Header";
+import InterviewAccord from "./components/InterviewAccord";
+import "bootstrap/dist/css/bootstrap.css";
+import "./App.css";
 
 const App = () => {
   return (
@@ -8,7 +9,7 @@ const App = () => {
       <Header />
       <InterviewAccord />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

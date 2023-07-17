@@ -11,7 +11,7 @@ const Question = ({ id, question, answer }) => {
 
   return (
     <div className="d-flex justify-content-center">
-      <div className="card w-75 mb-4">
+      <div className="card w-75 m-3 p-1">
         <div className="card-body">
           <h4 className="card-title">
             {id}. {question}
@@ -20,7 +20,7 @@ const Question = ({ id, question, answer }) => {
             </span>
           </h4>
           {isAnswerVisible && (
-            <p className="card-text fs-5 text-light">{answer}</p>
+            <p className="card-text fs-5">{answer}</p>
           )}
         </div>
       </div>

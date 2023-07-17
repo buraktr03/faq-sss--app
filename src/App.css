@@ -1,14 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cinzel:wght@500&family=Pathway+Gothic+One&display=swap");
 
-body {
-  background: #16a085; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #f4d03f,
-    #16a085
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f4d03f,
-    #16a085
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+body{
+  background-image: linear-gradient(
+    to right bottom,
+    #457b9d,
+    #538da9,
+    #649eb5,
+    #77b0c0,
+    #8bc2cc,
+    #9acdd1,
+    #a9d8d7,
+    #bae3dd,
+    #c8e9df,
+    #d7efe2,
+    #e4f4e7,
+    #f1faee
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.header {
+  font-family: "Amatic SC", cursive;
+  font-size: 4.5rem;
+}
+.card {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+}
+
+.card-title {
+  color: e63946 !important;
+  font-family: "Cinzel", serif;
+}
+.card-text {
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 1.5rem !important;
 }
